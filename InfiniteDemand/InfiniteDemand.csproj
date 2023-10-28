@@ -11,11 +11,17 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="Colossal.Collections">
+      <HintPath>..\Vendor\Colossal.Collections.dll</HintPath>
+    </Reference>
     <Reference Include="Game">
       <HintPath>..\Vendor\Game.dll</HintPath>
     </Reference>
     <Reference Include="MelonLoader">
       <HintPath>..\Vendor\MelonLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>..\Vendor\Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>..\Vendor\UnityEngine.CoreModule.dll</HintPath>
