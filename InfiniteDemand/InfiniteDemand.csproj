@@ -14,6 +14,9 @@
     <Reference Include="Game">
       <HintPath>..\Vendor\Game.dll</HintPath>
     </Reference>
+    <Reference Include="MelonLoader">
+      <HintPath>..\Vendor\MelonLoader.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>..\Vendor\UnityEngine.CoreModule.dll</HintPath>
     </Reference>

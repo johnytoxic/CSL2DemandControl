@@ -1,12 +1,12 @@
-﻿using HarmonyLib;
+﻿using MelonLoader;
 
 namespace InfiniteDemand
 {
-    public class InfiniteDemandMod
+    public class InfiniteDemandMod : MelonMod
     {
-        public static void Setup()
+        public override void OnInitializeMelon()
         {
-            var harmony = new Harmony("net.johnytoxic.infinitedemand");
+            var harmony = new HarmonyLib.Harmony("net.johnytoxic.infinitedemand");
             harmony.PatchAll();
         }
     }
