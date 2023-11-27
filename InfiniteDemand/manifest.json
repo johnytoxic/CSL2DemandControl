@@ -1,0 +1,7 @@
+{
+    "name": "Infinite_Demand_Mod",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/johnytoxic/CSL2DemandControl",
+    "description": "Set your demand to infinite for a better sandbox experience",
+    "dependencies": []
+}
