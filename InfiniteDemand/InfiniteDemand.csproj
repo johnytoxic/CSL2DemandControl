@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="BepInEx.BaseLib" Version="5.4.21" />
     <PackageReference Include="Lib.Harmony" Version="2.3.0-prerelease.2" />
   </ItemGroup>
 
@@ -17,11 +18,11 @@
     <Reference Include="Game">
       <HintPath>..\Vendor\Game.dll</HintPath>
     </Reference>
-    <Reference Include="MelonLoader">
-      <HintPath>..\Vendor\MelonLoader.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Mathematics">
       <HintPath>..\Vendor\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\Vendor\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>..\Vendor\UnityEngine.CoreModule.dll</HintPath>
