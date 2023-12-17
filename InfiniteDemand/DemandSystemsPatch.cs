@@ -40,10 +40,13 @@ namespace InfiniteDemand
     {
         private static AccessTools.FieldRef<ResidentialDemandSystem, NativeValue<int3>> BuildingDemandRef =
             AccessTools.FieldRefAccess<ResidentialDemandSystem, NativeValue<int3>>("m_BuildingDemand");
+        private static AccessTools.FieldRef<ResidentialDemandSystem, NativeValue<int>> HouseholdDemandRef =
+            AccessTools.FieldRefAccess<ResidentialDemandSystem, NativeValue<int>>("m_HouseholdDemand");
 
         static void Prefix(ResidentialDemandSystem __instance)
         {
             BuildingDemandRef(__instance).value = 255;
+            HouseholdDemandRef(__instance).value = 255;
         }
     }
 }
