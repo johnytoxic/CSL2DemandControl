@@ -1,14 +1,24 @@
-﻿using BepInEx;
+﻿using Colossal.Logging;
+using Game;
+using Game.Modding;
 
 namespace InfiniteDemand
 {
-    [BepInPlugin("net.johnytoxic.infinitedemand", "Infinite Demand Mod", "1.0.0")]
-    public class InfiniteDemandMod : BaseUnityPlugin
+    public class InfiniteDemandMod : IMod
     {
-        private void Awake()
+        public static ILog log = LogManager.GetLogger($"{nameof(InfiniteDemand)}.{nameof(InfiniteDemandMod)}").SetShowsErrorsInUI(false);
+
+        public void OnLoad(UpdateSystem updateSystem)
         {
+            log.Info(nameof(OnLoad));
+
             var harmony = new HarmonyLib.Harmony("net.johnytoxic.infinitedemand");
             harmony.PatchAll();
+        }
+
+        public void OnDispose()
+        {
+            log.Info(nameof(OnDispose));
         }
     }
 }
