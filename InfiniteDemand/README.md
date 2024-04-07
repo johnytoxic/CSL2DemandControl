@@ -1,4 +1,6 @@
 # Infinite Demand Mod
+https://mods.paradoxplaza.com/mods/77901/Windows
+
 Bringing back this essential mod from _Cities: Skylines_ for a better sandbox experience. This mod always sets the demand to infinite, so that new zones always get built immediately.
 
 Please note, that the game simulation is rather complex, so your actual demand might depend on other factors (e.g. citizens, work places, etc.)

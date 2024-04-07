@@ -1,25 +1,24 @@
 ﻿<Publish>
 	<!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
-	<ModId Value="" />
+	<ModId Value="204e9f77-1a6f-4166-9049-784f1b0b3bba" />
 	<!--Name of the mod to display to players-->
 	<DisplayName Value="InfiniteDemand" />
 	<!--Short description of the mod-->
 	<ShortDescription Value="Manage the demand in your city." />
 	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
-	<!--LongDescription Value="Set your demand to infinite for a better sandbox experience." /-->
 	<LongDescription>
-Set your demand to infinite for a better sandbox experience.
+Bringing back this essential mod from Cities: Skylines for a better sandbox experience. This mod always sets the demand to infinite, so that new zones always get built immediately.
 	</LongDescription>
 	<!--Thumbnail-->
 	<Thumbnail Value="Properties/Thumbnail.png" />
 	<!--Screenshot, can be set multiple times-->
 	<Screenshot Value="" />
 	<!--Tag, can be set multiple times-->
-	<Tag Value="" />
+	<Tag Value="Code Mod" />
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.0" />
+	<ModVersion Value="0.2" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.0.*" />
 	<!--Dependency for the mod, can be set multiple times-->
@@ -29,5 +28,5 @@ Set your demand to infinite for a better sandbox experience.
 	<!--ChangeLog>
 	</ChangeLog-->
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon-->
-	<ExternalLink Type="" Url="" />
+	<ExternalLink Type="github" Url="https://github.com/johnytoxic/CSL2DemandControl/tree/main/InfiniteDemand" />
 </Publish>
