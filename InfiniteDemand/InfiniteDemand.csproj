@@ -30,6 +30,9 @@
 		<Reference Include="Colossal.Core">
 			<Private>false</Private>
 		</Reference>
+		<Reference Include="Colossal.Collections">
+			<Private>false</Private>
+		</Reference>
 		<Reference Include="Colossal.Logging">
 			<Private>false</Private>
 		</Reference>
@@ -68,6 +71,10 @@
 	<ItemGroup>
 		<None Include="$(ModPropsFile)" Link="Properties\Mod.props" />
 		<None Include="$(ModTargetsFile)" Link="Properties\Mod.targets" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Lib.Harmony" Version="2.2.2" />
 	</ItemGroup>
 
 </Project>
